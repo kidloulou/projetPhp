@@ -51,3 +51,9 @@ button:hover {
 label{
     color: white;
 }
+
+h1{
+    text-align: center;
+    margin: 0;
+    display: flex;
+}

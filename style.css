@@ -6,6 +6,8 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
+   
 }
 
 .container {
@@ -56,4 +58,39 @@ h1{
     text-align: center;
     margin: 0;
     display: flex;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    height: 100%; /* Prend toute la hauteur de la page */
+    width: 150px; /* Largeur de la barre de navigation */
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    text-align: center;
+}
+
+.navbar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }

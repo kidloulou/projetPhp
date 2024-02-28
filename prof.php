@@ -28,17 +28,17 @@ class PageContent {
 class ProfPage extends PageContent {
     public function generateNavBar() {
         echo '<div class="navbar">
-            <img src="logo.png" alt="Logo" class="logo">
+            <img src="voiture-icooo.png " alt="Logo" class="logo">
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#notes">Notes</a></li>
                 <li><a href="#devoirs">Devoirs</a></li>
                 <li><a href="#emploi-du-temps">Emploi du temps</a></li>
             </ul>
-            <button id="toggle-navbar">Toggle Navbar</button>
         </div>';
     }
 }
+
 
 
 $profPage = new ProfPage("Professeur Page");
